@@ -1,0 +1,6 @@
+{
+  "name": "JanSetu AI",
+  "description": "AI-powered citizen grievance platform for Indian citizens. Speak or type civic problems in your language and let AI handle categorization, prioritization, duplicate detection, and authority routing.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* Accessibility: Text Scaling */
+html.text-scale-large {
+  font-size: 112.5%;
+}
+
+html.text-scale-extralarge {
+  font-size: 125%;
+}
+
+/* Accessibility: High Contrast Mode */
+html.high-contrast body {
+  font-weight: 500;
+}
+html.high-contrast button,
+html.high-contrast input,
+html.high-contrast select,
+html.high-contrast textarea {
+  outline: 2px solid currentColor !important;
+  outline-offset: 1px;
+}
+
+/* Accessibility: Reduced Motion */
+html.reduce-motion *,
+html.reduce-motion *::before,
+html.reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Dark mode Leaflet tile adaptation */
+.dark .leaflet-tile {
+  filter: brightness(0.75) invert(1) contrast(1.4) hue-rotate(190deg) saturate(0.5);
+}
+.dark .leaflet-container {
+  background: #0f172a !important;
+}
+.dark .leaflet-popup-content-wrapper,
+.dark .leaflet-popup-tip {
+  background: #1e293b !important;
+  color: #f1f5f9 !important;
+}
