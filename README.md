@@ -6,7 +6,7 @@
 
 **An AI-powered civic grievance platform built to make reporting public problems simple, multilingual, and accessible for every Indian citizen.**
 
-LIVE DEMO - https://jan-setu-6xz0zg41k-yashaswisingh024-designs-projects.vercel.app/
+LIVE DEMO - https://jansetu-ai.ai.studio
 
 💻 GitHub - https://github.com/yashaswisingh024-design/JanSetu-AI
 
