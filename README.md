@@ -47,28 +47,10 @@ Citizens simply **describe their problem in their own words**.
 
 ---
 
-## 🧠 How It Works
+> **🗣️ Citizen explains the problem → 🤖 AI understands it → 🏛️ Authorities get actionable information.**
 
+**JanSetu AI simplifies the journey from reporting a problem to taking action.**
 
-👤 Citizen
-     ↓
-📝 Describe Problem
-     ↓
-🤖 AI Analysis
-     ↓
-┌──────────┬───────────┬──────────┐
-Category   Department  Priority
-└──────────┴───────────┴──────────┘
-     ↓
-🔍 Duplicate Detection
-     ↓
-🔗 Issue Clustering
-     ↓
-🗺️ GIS Hotspot
-     ↓
-🏛️ Authority Dashboard
-     ↓
-✅ Resolution
 
 ---
 
@@ -148,3 +130,36 @@ JanSetu AI is designed to feel as simple as sending a message.
 
 ### 🚀 Deployment
 - ▲ Vercel
+
+
+
+<h2><strong><font color="white">🌟 Vision</font></strong></h2>
+
+<div align="center">
+
+### 🇮🇳 “Make civic participation as easy as sending a message.”
+
+<br>
+
+**JanSetu AI aims to bridge the gap between citizens and civic authorities through AI-powered understanding, multilingual interaction, and location-based intelligence.**
+
+<br>
+
+</div>
+
+---
+
+## 👥 Team JanSetu AI
+
+Built with ❤️ by **Team BitMatrixx**
+
+| Role | Responsibility |
+|---|---|
+| 👩‍💻 Frontend | UI & Citizen Experience |
+| 🤖 AI | AI Analysis & Classification |
+| 🧠 ML | Duplicate Detection & Clustering |
+| ⚙️ Backend | APIs & Database |
+| 🗺️ GIS | Maps & Hotspot Intelligence |
+| 🎤 Integration | Testing & Presentation |
+
+---
