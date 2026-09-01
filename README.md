@@ -49,7 +49,7 @@ Citizens simply **describe their problem in their own words**.
 
 ## 🧠 How It Works
 
-```text
+
 👤 Citizen
      ↓
 📝 Describe Problem
