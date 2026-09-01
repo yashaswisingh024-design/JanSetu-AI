@@ -1,47 +1,150 @@
 # 🇮🇳 JanSetu AI
 
-### 🏛️ Your Problem. Our AI. Faster Action.
+<div align="center">
 
-> **A citizen-first AI platform that makes reporting civic problems as easy as sending a message.**
+### 🌉 Your Problem. Our AI. Faster Action.
 
-[![Made with React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=white)](#-tech-stack)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white)](#-tech-stack)
-[![Gemini AI](https://img.shields.io/badge/AI-Gemini-4285F4?logo=google&logoColor=white)](#-ai-powered-features)
-[![Firebase](https://img.shields.io/badge/Database-Firebase-FFCA28?logo=firebase&logoColor=black)](#-tech-stack)
-[![Responsive](https://img.shields.io/badge/UI-Responsive-success)](#-responsive-design)
+**An AI-powered civic grievance platform built to make reporting public problems simple, multilingual, and accessible for every Indian citizen.**
+
+[🚀 Live Demo](YOUR_DEPLOYED_LINK) • [💻 GitHub](YOUR_GITHUB_LINK)
+
+</div>
 
 ---
 
-## 🌉 What is JanSetu AI?
+## 💡 What is JanSetu AI?
 
-**JanSetu AI** is an AI-powered civic grievance platform designed to make complaint registration **simple, multilingual and accessible for Indian citizens**.
+JanSetu AI simplifies civic complaint registration.
 
-Instead of forcing citizens to understand:
+Instead of asking citizens to choose complicated fields like:
 
-❌ Which department to select  
-❌ Which category to choose  
-❌ How urgent their complaint is  
-❌ Whether someone has already reported the same issue  
+❌ Department  
+❌ Complaint Category  
+❌ Priority  
+❌ Grievance Type  
 
-JanSetu AI lets citizens simply:
+Citizens simply **describe their problem in their own words**.
 
-> **🗣️ Describe what happened.**
+> 🗣️ **Citizen describes the problem → 🤖 AI handles the rest**
 
-Our AI handles the complexity behind the scenes.
+---
 
-### 💡 Core Idea
+## ✨ Key Features
+
+- 🤖 **AI Complaint Analysis** — Automatically understands the grievance
+- 🏢 **Smart Department Detection** — Identifies the responsible department
+- 🚦 **AI Priority Detection** — Determines urgency automatically
+- 🔍 **Duplicate Detection** — Finds similar complaints
+- 🔗 **Issue Clustering** — Groups complaints about the same underlying problem
+- 🗺️ **GIS Hotspots** — Visualizes complaint-prone areas
+- 🇮🇳 **Multilingual Support** — Designed for Indian languages
+- 🎤 **Voice Complaints** — Speak instead of typing
+- 📷 **Image Support** — Upload photos of civic issues
+- 📊 **Authority Dashboard** — Helps authorities manage complaints
+- 🔎 **Complaint Tracking** — Track complaints using a unique ID
+- 🌙 **Dark Mode** — Fully responsive light/dark interface
+- 📱 **Mobile + Desktop** — Citizen-first responsive design
+
+---
+
+## 🧠 How It Works
 
 ```text
-Citizen describes the problem
-              ↓
-          🤖 AI Analysis
-              ↓
- ┌────────────┼─────────────┐
- ↓            ↓             ↓
-Category   Department    Priority
- ↓            ↓             ↓
-Duplicate Detection → Issue Clustering
-              ↓
-       🗺️ GIS Hotspot
-              ↓
-      🏛️ Authority Dashboard
+👤 Citizen
+     ↓
+📝 Describe Problem
+     ↓
+🤖 AI Analysis
+     ↓
+┌──────────┬───────────┬──────────┐
+Category   Department  Priority
+└──────────┴───────────┴──────────┘
+     ↓
+🔍 Duplicate Detection
+     ↓
+🔗 Issue Clustering
+     ↓
+🗺️ GIS Hotspot
+     ↓
+🏛️ Authority Dashboard
+     ↓
+✅ Resolution
+
+---
+
+
+### 📊 Example
+
+### 👤 Citizen Complaint
+
+> "गेल्या पाच दिवसांपासून आमच्या परिसरात कचरा उचललेला नाही. खूप दुर्गंधी येत आहे."
+
+### 🤖 JanSetu AI Analysis
+
+| Field | AI Result |
+|---|---|
+| 📝 Grievance | Garbage not collected |
+| 🏷️ Category | Garbage & Sanitation |
+| 🏢 Department | Municipal Sanitation |
+| 🚦 Priority | High |
+| 🔍 Similar Complaints | 12 |
+| 🔗 Issue Cluster | Local Garbage Issue |
+
+> **The citizen only describes the problem. JanSetu AI converts it into actionable information.**
+
+---
+
+## 🧑‍💻 Citizen Experience
+
+JanSetu AI is designed to feel as simple as sending a message.
+
+```text
+🏠 Home
+   ↓
+➕ Report a Problem
+   ↓
+📝 Describe the Problem
+   ↓
+🎤 Voice / 📷 Photo / 📍 Location
+   ↓
+🤖 AI Analysis
+   ↓
+🎫 Complaint ID
+   ↓
+🔎 Track Status
+---
+
+
+## 🛠️ Tech Stack
+
+### 🎨 Frontend
+- ⚛️ React
+- 📘 TypeScript
+- ⚡ Vite
+- 🎨 CSS
+- 🧩 Component-based architecture
+
+### 🤖 AI & Intelligence
+- 🧠 Google Gemini AI
+- 🔍 AI-powered grievance analysis
+- 🔗 Semantic duplicate detection
+- 🚦 AI-based priority analysis
+
+### 🌐 Multilingual & Voice
+- 🇮🇳 Multilingual interface
+- 🌐 Sarvam AI
+- 🎤 Speech-to-Text
+- 🔊 Text-to-Speech
+
+### 🗺️ Maps & Visualization
+- 📍 GIS-based complaint visualization
+- 🗺️ Interactive maps
+- 📊 Data visualization
+
+### 🔧 Development
+- 🟠 Bun
+- 🐙 Git & GitHub
+- 📦 npm/Bun package management
+
+### 🚀 Deployment
+- ▲ Vercel
