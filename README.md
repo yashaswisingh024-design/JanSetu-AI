@@ -5,10 +5,15 @@
 ### 🌉 Your Problem. Our AI. Faster Action.
 
 **An AI-powered civic grievance platform built to make reporting public problems simple, multilingual, and accessible for every Indian citizen.**
+<div class="project-buttons">
+  <a href="https://jansetu-ai.ai.studio" target="_blank" rel="noopener noreferrer">
+    🔴 Live Demo
+  </a>
 
-LIVE DEMO - https://jansetu-ai.ai.studio
+  <a href="https://github.com/yashaswisingh024-design/JanSetu-AI" target="_blank" rel="noopener noreferrer">
+    💻 GitHub
+  </a>
 
-💻 GitHub - https://github.com/yashaswisingh024-design/JanSetu-AI
 
 </div>
 
